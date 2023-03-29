@@ -4,7 +4,7 @@
 # Installation and usage instructions at https://github.com/Nortonko/rhasspy-MSAzure
 
 # Authentication  (see https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/rest-text-to-speech?tabs=streaming#authentication)
-apikey="301e1e6fa73c448682da74af922ba335"
+apikey="xxxxxxxxxxxxxx"
 tokenurl="https://westeurope.api.cognitive.microsoft.com/sts/v1.0/issueToken"
 
 # Voice and language  (see https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support?tabs=tts#tabpanel_1_tts for a complete list)
@@ -17,7 +17,7 @@ OutputFormat="riff-8khz-16bit-mono-pcm"
 
 # Region url  (see https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/rest-text-to-speech?tabs=streaming#convert-text-to-speech)
 host="https://westeurope.tts.speech.microsoft.com/cognitiveservices/v1"
-useragent="napismi/1.0.0"
+useragent="myApp/1.0.0"
 
 # Folder to cache the files - this also contains the .txt index file with a list of all generated files
 cache="cache"
