@@ -40,5 +40,5 @@ Based on the [jarvis_says.sh](https://github.com/tschmidty69/homeassistant-confi
 
 |Installation| Say program path                                                   |
 |------------|--------------------------------------------------------------------|
-| Docker     | `/profiles/en/rhasspy_watson_says.sh`                              |
+| Docker     | `/profiles/en/rhasspy_azure_says.sh`                              |
 | Non-docker | `/home/${USER}/.config/rhasspy/profiles/en/rhasspy_azure_says.sh` |
