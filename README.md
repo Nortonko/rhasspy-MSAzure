@@ -35,10 +35,10 @@ Based on the [jarvis_says.sh](https://github.com/tschmidty69/homeassistant-confi
 | Docker     | `/profiles/en/tts/cache/`                                          |
 | Non-docker | `/home/${USER}/.config/rhasspy/profiles/en/tts/cache/`             |
 
-3. Make the script executable: `chmod a+x /home/${USER}/.config/rhasspy/profiles/en/rhasspy_watson_says.sh` (you might have to run with sudo)
+3. Make the script executable: `chmod a+x /home/${USER}/.config/rhasspy/profiles/en/rhasspy_azure_says.sh` (you might have to run with sudo)
 4. Update the Rhasspy TTS settings to Local Command and set Say Program to:
 
 |Installation| Say program path                                                   |
 |------------|--------------------------------------------------------------------|
 | Docker     | `/profiles/en/rhasspy_watson_says.sh`                              |
-| Non-docker | `/home/${USER}/.config/rhasspy/profiles/en/rhasspy_watson_says.sh` |
+| Non-docker | `/home/${USER}/.config/rhasspy/profiles/en/rhasspy_azure_says.sh` |
